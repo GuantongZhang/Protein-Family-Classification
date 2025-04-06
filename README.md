@@ -19,4 +19,4 @@ To improve the accuracy, I used an ESM-2 transformer protein language model. Thi
 |  7 |       0.0001 |      1.0000 |     0.0045 |    0.9993 |   0.9993 |
 |  8 |     nan      |    nan      |     0.0029 |    0.9993 |   0.9993 
 
-During the training process, the early stop trigger has been set with patience=2, evaluated by the validation loss value, and it stopped at the 8th epoch. The highest validation accuracy, 0.9998, was found at the 6th epoch, together with the least validation loss, 0.0013. See /new_code/extracted_training_curves.png for the visualization of the training process. Note that the train_loss and train_acc were not recorded due to the early stop, and it doesn’t affect the final conclusion.
+During the training process, the early stop trigger has been set with patience=2, evaluated by the validation loss value, and it stopped at the 8th epoch. The least validation loss, 0.0013, was found at the 6th epoch. See /new_code/extracted_training_curves.png for the visualization of the training process. Note that the train_loss and train_acc were not recorded due to the early stop, and it doesn’t affect the final conclusion.
